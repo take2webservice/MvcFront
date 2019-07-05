@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <script type="text/javascript" src="./model.js"></script>
+    <script type="text/javascript" src="./modelService.js"></script>
+    <script type="text/javascript" src="./view.js"></script>
+    <script type="text/javascript" src="./controller.js"></script>
+    <script type="text/javascript" src="./bind.js"></script>
+  </head>
+  <body>
+    <div style="width: auto; float: left; margin-left: 20px;">
+      <table>
+        <tr>
+          <td>Onsite</td>
+        </tr>
+        <tr>
+          <td>
+            <select
+              name="Onsite"
+              size="4"
+              multiple="multiple"
+              id="Onsite"
+              style="width: 300px;"
+            >
+            </select>
+          </td>
+          <td><input type="button" id="leftArrow" value=" < " /></td>
+          <td><input type="button" id="rightArrow" value=" > " /></td>
+        </tr>
+      </table>
+    </div>
+    <div style="width: auto; float: left; margin-left: 20px;">
+      <table>
+        <tr>
+          <td>Offsite</td>
+        </tr>
+        <tr>
+          <td>
+            <select
+              name="Offsite"
+              size="4"
+              multiple="multiple"
+              id="Offsite"
+              style="width: 300px;"
+            >
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="clear: both; padding-left: 220px;">
+      <input id="save" type="submit" value="save" />
+    </div>
+  </body>
+</html>
